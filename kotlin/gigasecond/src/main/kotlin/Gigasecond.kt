@@ -14,4 +14,5 @@ class Gigasecond {
     constructor(localGivenDateTime: LocalDateTime) {
         date = localGivenDateTime.plus(giga, ChronoUnit.SECONDS)
     }
+
 }
